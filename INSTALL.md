@@ -7,6 +7,15 @@ wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/
 
 ```
 
+## LLVM
+
+- 指定使用14版本：<https://github.com/llvm/llvm-project/releases/tag/llvmorg-14.0.6>
+
+``` bash
+tar -xvf ${}
+
+```
+
 ## DTC-SpMM_ASPLOS24
 
 ``` bash
@@ -15,7 +24,7 @@ pip install numpy
 pip install scipy
 ```
 
-## SparseTIP
+## SparseTIR
 
 - <https://sampl.cs.washington.edu/SparseTIR/install.html>
 

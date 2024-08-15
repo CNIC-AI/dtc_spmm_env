@@ -8,6 +8,7 @@ nvcc -V
 source ../llvm/env.sh
 export PATH=$LLVM_HOME/bin:$PATH
 which clang
+# exit
 
 # env
 source /root/miniconda3/etc/profile.d/conda.sh
@@ -16,6 +17,7 @@ numpy_version=$(python -c "import numpy as np; print(np.__version__)")
 echo "numpy==$numpy_version"
 
 #
+cp config.cmake ./SparseTIR
 cd SparseTIR
 mkdir -p build && rm -rf ./build/*
 cd build

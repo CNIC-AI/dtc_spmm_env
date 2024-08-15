@@ -1,0 +1,5 @@
+set(USE_LLVM "llvm-config --ignore-libllvm --link-static")
+set(HIDE_PRIVATE_SYMBOLS ON)
+set(USE_CUDA ON)
+set(USE_CUBLAS ON)
+set(USE_CUDNN ON)
