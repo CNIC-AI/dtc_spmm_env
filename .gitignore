@@ -1,3 +1,6 @@
+SparseTIR/
+
+#
 install/
 
 # third-party packages, cuda installer, etc.
