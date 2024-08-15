@@ -1,0 +1,10 @@
+install/
+
+# third-party packages, cuda installer, etc.
+*.tar.*
+gcc-*
+cmake-*
+bazel-*
+cuda_*
+cudnn-*
+llvm-*
